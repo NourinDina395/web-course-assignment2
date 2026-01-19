@@ -1,4 +1,8 @@
-
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}  
 .inter-font {
   font-family: "Inter", sans-serif;
   font-optical-sizing: auto;
@@ -143,5 +147,185 @@ header {
    width: 20px;
    height: 20px;
 }
+
+
+ .header {
+    
+  width: 1600px;
+  height: 760px;
+  background-image: url("../assets/hero-bg.png");
+  background-size: cover;          
+  background-position: center;
+  background-repeat: no-repeat;
+  position: relative;   
+
+}
+
+.frame2{
+    width: 550px;
+   /* height: 558px; */
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    gap: 40px;
+    margin: 101px 525px 101px 525px;
+
+    position: absolute;
+    inset: 0;
+}
+
+.circle-microphone{
+    width: 350px;
+    height: 350px;
+    box-sizing: border-box;
+    border: rgba(42, 24, 108, 1);
+    position: relative;
+    border-radius: 50%;
+   /* margin: 101px 625px 309px 625px;*/
+}
+
+
+.tdesign-micro{
+    width: 200px;
+    height: 200px;
+    margin: 69px 75px 81px 75px;
+    padding:8.33px 41.67px 16.67px 41.67px;
+
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-100%, -100%);
+    box-sizing: border-box;
+}
+
+
+.tdesign-micro img.vector {
+    width: 200px;                  
+    height: 200px;
+    object-fit: contain;
+}
+
+.new-text{
+    position: absolute;
+    top: 10px;
+    right: 10px;
+
+    width: 75px;
+    height: 38px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    padding: 8px 16px 8px 16px;
+
+    border-radius: 1000px;
+    box-shadow: 0px 3px 27px 0px rgba(0, 255, 136, 0.5);
+    background-color: #00FF88;
+
+    font-size: 18px;
+    font-weight: 600;
+    color: black;             
+    white-space: nowrap;
+    
+    }
+
+    .text{
+        width: 43px;
+        height: 22px;
+        color: black;
+
+        font-style: Semi Bold;
+        font-size: 18px;
+        font-weight: 600;
+        line-height: 22px;
+        letter-spacing: 0%;
+        text-align: top;
+        text-transform: capitalize;
+    }
+
+.frame3{
+
+    width: 550px;
+    /*height: 168px;*/
+    display:flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    gap: 24px;
+}
+.header-title{
+   width: 550px;
+   height: 73px;
+   color: rgba(255, 255, 255, 1);
+
+    font-style: Extra Bold;
+    font-size: 60px;
+    font-weight: 800;
+    line-height: 73px;
+    letter-spacing: 0%;
+    text-align: center;
+    text-transform: capitalize;
+    }
+
+.header-description{
+     width:550px;
+     height: 19px;
+     opacity: 0.8;
+     color: rgba(255, 255, 255, 1);
+
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 19px;
+    letter-spacing: 0%;
+    text-align: center;
+}
+
+ .header-button{
+    width: 356px;
+    /* height: 44px; */
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 16px;
+}
+.header-btn1{
+    /* Primary Button_2 */
+    width: 201px;
+    height: 44px;
+    /* Auto layout */
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 8;
+    padding: 12px 20px 12px 20px;
+     border-radius: 10000px;
+    background: var(--Linear, linear-gradient(47.64deg, rgba(247, 233, 63, 1),rgba(251, 9, 180, 1),rgba(145, 0, 248, 1)));
+    cursor: pointer;
+}
+.header-btn2{
+        /* Primary Button_2 */
+    width: 147px;
+    height: 44px;
+    /* Auto layout */
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 8;
+    padding: 12px 20px 12px 20px;
+
+    box-sizing: border-box;
+    border: 1px solid #00FF88;
+    border-radius: 10000px;
+    
+    background-color: #1a0d2e;;
+    color: #00FF88;
+
+}
+
 
 
