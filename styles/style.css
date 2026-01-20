@@ -328,4 +328,115 @@ header {
 }
 
 
+.about{
+    /* Apps */
+    width: 1600px;
+    height: 646px;
+    /* Auto layout */
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    gap: 80;
+    padding: 50px 200px 120px 200px;
+    background: rgba(26, 11, 46, 1);
+}
 
+.about-frame1{
+      /* Frame 2087326313 */
+    width: 1200px;
+    height: 222px;
+    /* Auto layout */
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    gap: 16px;
+}
+
+.about.title{
+    /* About the Podcast */
+    width: 1200px;
+    height: 58px;
+    color: var(--#FFFFFF, rgba(255, 255, 255, 1));
+    font-family: Inter;
+    font-style: Bold;
+    font-size: 48px;
+    font-weight: 700;
+    line-height: 58px;
+    letter-spacing: 0%;
+    text-align: center;
+    text-transform: capitalize;
+}
+
+.about.subtitle{
+      /* Frame 2087326313 */
+    width: 1200px;
+    height: 222px;
+    /* Auto layout */
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    gap: 16px;
+}
+
+section.about hr {
+  margin: 50px auto;
+  width: 1200px;
+  height: 2px;
+  border: 1px solid rgb(20, 20, 56);
+  border-radius: 4px;
+}
+
+.about-frame2{
+      /* Frame 2087326327 */
+    width: 1200px;
+    height: 94px;
+    /* Auto layout */
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: flex-start;
+    gap: 80px;
+}
+.stat-item{
+      /* Frame 2087326314 */
+    width: 240px;
+    height: 94px;
+    /* Auto layout */
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    gap: 16px;
+}
+
+.stat-number{
+    width: 240px;
+    height: 58px;
+    color: #00FF88;
+    font-style: Black;
+    font-size: 48px;
+    font-weight: 900;
+    line-height: 58px;
+    letter-spacing: 0%;
+    text-align: center;
+    text-transform: capitalize;
+}
+
+.stat-label{
+    width: 240px;
+    height: 20px;
+    opacity: 0.8;
+    color: rgba(255, 255, 255, 1);
+
+    font-family: Inter;
+    font-style: Regular;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 20px;
+    letter-spacing: 0%;
+    text-align: center;
+    text-transform: uppercase;
+}
