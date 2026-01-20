@@ -1,3 +1,5 @@
+main css: 
+
 * {
   margin: 0;
   padding: 0;
@@ -589,7 +591,7 @@ padding: 40px;
 
 border-radius: 40px;
 background: rgba(53, 17, 101, 0.4);
-margin: -650px 200px 423px 450px;
+margin: -620px 200px 423px 450px;
 }
 
 .frame-down{
@@ -617,7 +619,7 @@ padding: 40px;
 
 border-radius: 40px;
 background: rgba(53, 17, 101, 0.4);
-margin: -200px 610px 120px 80px;
+margin: -100px 610px 120px 30px;
 }
 .card4 icon{
     width: 55.07px;
@@ -1070,4 +1072,308 @@ letter-spacing: 0%;
 text-align: center;
 margin-top:100px;
 margin-left: 80px;
+}
+
+ 
+
+
+/* =============================================================================
+   SMALL DEVICES — up to 576px (mobile – main phone layout)
+   ============================================================================= */
+@media (max-width: 576px) {
+
+  /* Top navigation → logo left, hamburger right, subscribe stays */
+  .top-nav {
+    padding: 1rem 1.5rem;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: nowrap;
+  }
+
+  .logo {
+    font-size: 1.8rem;
+  }
+
+  .Frame {
+    display: none;                    /* hide normal links */
+  }
+
+  .primary-btn {
+    padding: 0.6rem 1.1rem;
+    font-size: 0.9rem;
+  }
+
+  .enroll {
+    font-size: 0.9rem;
+  }
+
+  /* Hero section */
+  .header {
+    padding: 2rem 0;
+    min-height: auto;
+    background-position: center 30%;
+  }
+
+  .frame2 {
+    position: static;
+    width: 100%;
+    max-width: 90%;
+    margin: 1.5rem auto;
+    padding: 0 1rem;
+    flex-direction: column;
+    gap: 2.5rem;
+    text-align: center;
+  }
+
+  .circle-microphone {
+    width: 240px;
+    height: 240px;
+    margin: 0 auto;
+  }
+
+  .tdesign-micro {
+    width: 140px;
+    height: 140px;
+    transform: translate(-50%, -50%);
+  }
+
+  .header-title {
+    font-size: 2.6rem;
+    line-height: 1.15;
+  }
+
+  .header-description {
+    font-size: 1.05rem;
+  }
+
+  .header-button {
+    flex-direction: column;
+    gap: 1rem;
+    width: 100%;
+  }
+
+  .header-btn1, .header-btn2 {
+    width: 100%;
+  }
+
+  /* Stats */
+  .about-frame2 {
+    flex-direction: column;
+    gap: 2.2rem;
+    padding: 1rem;
+  }
+
+  .stat-item {
+    width: 100%;
+  }
+
+  .stat-number {
+    font-size: 2.8rem;
+  }
+
+  /* Why Choose section */
+  .techwave {
+    padding: 4rem 1.5rem;
+  }
+
+  .techwave-title {
+    font-size: 2.2rem;
+  }
+
+  .techwave-grid {
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+  }
+
+  .frame-up, .frame-down, .frame-up2 {
+    flex-direction: column;
+    gap: 2rem;
+  }
+
+  .card {
+    width: 100%;
+    max-width: 420px;
+    margin: 0 auto !important;
+  }
+
+  /* Featured episodes */
+  .feature {
+    padding: 4rem 1.5rem;
+  }
+
+  .episode-card {
+    flex-direction: column;
+    gap: 2.5rem;
+  }
+
+  .episode-card-box {
+    width: 100%;
+  }
+
+  .video {
+    height: auto;
+    aspect-ratio: 16 / 9;
+  }
+
+  /* Host section */
+  .feature-alex {
+    flex-direction: column;
+    text-align: center;
+    padding: 2rem 1.5rem;
+  }
+
+  .feature-alex-host {
+    width: 180px;
+    height: 180px;
+    margin: 0 auto 1.5rem;
+  }
+
+  .feature-alex-title {
+    font-size: 1.8rem;
+  }
+
+  /* Footer */
+  .footer {
+    padding: 4rem 1.5rem 2rem;
+  }
+
+  .footer-title, .footer-title-color {
+    font-size: 3.5rem;
+    text-align: center;
+    margin-left: 0;
+  }
+
+  .footer-icon {
+    flex-direction: column;
+    gap: 1.5rem;
+    margin: 2rem auto;
+  }
+}
+
+
+/* =============================================================================
+   MEDIUM DEVICES — 577px to 992px (tablets, small laptops)
+   ============================================================================= */
+@media (min-width: 577px) and (max-width: 992px) {
+
+  .top-nav {
+    padding: 1.5rem 3rem;
+    justify-content: space-between;
+    gap: 2rem;
+  }
+
+  .logo {
+    font-size: 2.2rem;
+  }
+
+  .Frame ul {
+    gap: 2.2rem;
+  }
+
+  .Frame a {
+    font-size: 1.05rem;
+  }
+
+  .primary-btn {
+    padding: 0.8rem 1.4rem;
+  }
+
+  /* Hero */
+  .frame2 {
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    max-width: 90%;
+    margin: 3rem auto;
+    padding: 0 2rem;
+    gap: 3rem;
+  }
+
+  .circle-microphone {
+    width: 280px;
+    height: 280px;
+    flex-shrink: 0;
+  }
+
+  .tdesign-micro {
+    width: 160px;
+    height: 160px;
+  }
+
+  .frame3 {
+    flex: 1;
+  }
+
+  .header-title {
+    font-size: 3.4rem;
+    text-align: left;
+  }
+
+  .header-description {
+    text-align: left;
+  }
+
+  .header-button {
+    justify-content: flex-start;
+  }
+
+  /* Stats */
+  .about-frame2 {
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    gap: 2.5rem 1.5rem;
+    padding: 0 2rem;
+  }
+
+  .stat-item {
+    flex: 1 1 40%;
+    min-width: 160px;
+  }
+
+  /* Why Choose */
+  .techwave {
+    padding: 5rem 3rem;
+  }
+
+  .techwave-grid {
+    grid-template-columns: repeat(2, 1fr);
+    gap: 2.5rem;
+  }
+
+  .frame-up, .frame-down {
+    display: contents;
+  }
+
+  .card {
+    margin: 0 !important;
+  }
+
+  /* Episodes */
+  .episode-card {
+    grid-template-columns: repeat(2, 1fr);
+    gap: 2rem;
+  }
+
+  /* Host */
+  .feature-alex {
+    flex-direction: row;
+    gap: 2.5rem;
+    padding: 2.5rem 3rem;
+  }
+
+  .feature-alex-host {
+    width: 220px;
+    height: 220px;
+  }
+
+  .feature-alex-title {
+    font-size: 2.1rem;
+  }
+
+  /* Footer */
+  .footer-icon {
+    gap: 2.5rem;
+    justify-content: center;
+  }
 }
